@@ -14,5 +14,6 @@ export default {
 div {
   width: 300px;
   font-size: 20px;
+  color: red;
 }
 </style>
