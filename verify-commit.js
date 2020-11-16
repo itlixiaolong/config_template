@@ -1,5 +1,4 @@
 const msgPath = process.env.GIT_PARAMS
-console.log('1111', process)
 const msg = require('fs')
   .readFileSync(msgPath, 'utf-8')
   .trim()
