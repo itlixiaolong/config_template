@@ -1,5 +1,7 @@
 module.exports = {
-  presets: ['@vue/app'],
+  presets: [
+    ['@vue/app', { useBuiltIns: 'entry' }]
+  ]
   // plugins: [
   //   [
   //     'import',
@@ -12,5 +14,4 @@ module.exports = {
   //     'lodash'
   //   ]
   // ]
-  plugins: ['lodash']
 }
